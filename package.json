@@ -155,7 +155,7 @@
   },
   "license": "Apache-2.0",
   "config": {
-    "libvips": "8.13.3",
+    "libvips": "8.14.1",
     "integrity": {
       "darwin-arm64v8": "sha512-xFgYt7CtQSZcWoyUdzPTDNHbioZIrZSEU+gkMxzH4Cgjhi4/N49UsonnIZhKQoTBGloAqEexHeMx4rYTQ2Kgvw==",
       "darwin-x64": "sha512-6SivWKzu15aUMMohe0wg7sNYMPETVnOe40BuWsnKOgzl3o5FpQqNSgs+68Mi8Za3Qti9/DaR+H/fyD0x48Af2w==",
