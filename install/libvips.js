@@ -219,7 +219,7 @@ try {
   // Info: https://sharp.pixelplumbing.com/install#building-from-source
 
   // TODO: we should rebuild sharp with the new `libvips` version and deliver that instead
-  process.exit(1);
+  // process.exit(1);
 } catch (err) {
   fail(err);
 }
