@@ -213,13 +213,13 @@ try {
     }
   }
 
-  // This should trigger a rebuild of `sharp` with the new `libvips` version
-  // We need this because we have changed the `libvips` version we don't want
-  // to count on the consumers that will pass the `--build-from-source` flag
-  // Info: https://sharp.pixelplumbing.com/install#building-from-source
-
-  // TODO: we should rebuild sharp with the new `libvips` version and deliver that instead
-  process.exit(1);
+  // // This should trigger a rebuild of `sharp` with the new `libvips` version
+  // // We need this because we have changed the `libvips` version we don't want
+  // // to count on the consumers that will pass the `--build-from-source` flag
+  // // Info: https://sharp.pixelplumbing.com/install#building-from-source
+  //
+  // // TODO: we should rebuild sharp with the new `libvips` version and deliver that instead
+  // process.exit(1);
 } catch (err) {
   fail(err);
 }
